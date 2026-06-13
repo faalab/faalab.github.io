@@ -1,0 +1,23 @@
+{{ $number := .Get "number" }}
+{{ $title := .Get "title" }}
+{{ $heading := .Get "heading" }}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default $heading }}
+{{ $side := .Get "imageSide" | default "left" }}
+<section class="research-feature{{ if eq $side "right" }} is-reversed{{ end }}">
+  <div class="research-feature-header">
+    {{ with $number }}<span class="research-feature-number">{{ . }}</span>{{ end }}
+    {{ with $title }}<h2>{{ . }}</h2>{{ end }}
+  </div>
+  <div class="research-feature-grid">
+    {{ with $image }}
+      <figure class="research-feature-media">
+        <img src="{{ . | relURL }}" alt="{{ $alt }}">
+      </figure>
+    {{ end }}
+    <div class="research-feature-copy">
+      {{ with $heading }}<h3>{{ . }}</h3>{{ end }}
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</section>

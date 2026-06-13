@@ -1,0 +1,10 @@
+<p class="publication-reference">
+  {{ with .reference }}
+    {{ . | markdownify }}
+  {{ else }}
+    {{ delimit .authors ", " }}{{ with .year }}, {{ . }}:{{ end }}
+    {{ .title }}.
+    {{ with .venue }}<em>{{ . }}</em>{{ end }}{{ with .volume }}, <strong>{{ . }}</strong>{{ end }}{{ with .number }}({{ . }}){{ end }}{{ with .pages }}, {{ replace . "--" "-" }}{{ end }}{{ with .status }}, {{ . }}{{ end }}.
+  {{ end }}
+  {{ with .url }} <a class="publication-inline-link" href="{{ . }}">Link</a>{{ end }}
+</p>

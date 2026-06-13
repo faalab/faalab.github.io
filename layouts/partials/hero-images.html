@@ -1,0 +1,14 @@
+{{ $images := slice }}
+{{ $extensions := slice ".avif" ".gif" ".jpeg" ".jpg" ".png" ".webp" }}
+{{ range readDir "static/images/heroes" }}
+  {{ if not .IsDir }}
+    {{ $extension := lower (path.Ext .Name) }}
+    {{ if and (not (hasPrefix .Name ".")) (in $extensions $extension) }}
+      {{ $images = $images | append (dict "image" (printf "images/heroes/%s" .Name)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $images }}
+  {{ $images = hugo.Data.hero_images | default (slice) }}
+{{ end }}
+{{ return $images }}

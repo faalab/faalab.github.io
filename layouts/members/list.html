@@ -1,0 +1,27 @@
+{{ define "main" }}
+  {{ partial "page-hero.html" . }}
+
+  <section class="container content page-content">
+    {{ .Content }}
+    {{ $members := .Pages.ByWeight }}
+    {{ $currentMembers := slice }}
+    {{ $alumni := slice }}
+    {{ $pastResearchers := slice }}
+    {{ $pastCategories := slice "Past Researchers and Visitors" "Past Researchers" "Past Visitors" "Visitors" }}
+
+    {{ range $members }}
+      {{ $category := .Params.category | default "" }}
+      {{ if eq $category "Alumni" }}
+        {{ $alumni = $alumni | append . }}
+      {{ else if in $pastCategories $category }}
+        {{ $pastResearchers = $pastResearchers | append . }}
+      {{ else }}
+        {{ $currentMembers = $currentMembers | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{ partial "member-section.html" (dict "title" "Current Members" "members" $currentMembers) }}
+    {{ partial "member-section.html" (dict "title" "Alumni" "members" $alumni) }}
+    {{ partial "member-section.html" (dict "title" "Past Researchers and Visitors" "members" $pastResearchers) }}
+  </section>
+{{ end }}

@@ -1,0 +1,18 @@
+<article class="activity-item">
+  <p class="activity-type">{{ .type }}</p>
+  <h2>{{ .title }}</h2>
+  <p class="activity-meta">
+    {{ with .date }}{{ . }}{{ end }}{{ if and .date .location }} · {{ end }}{{ with .location }}{{ . }}{{ end }}
+  </p>
+  {{ with .summary }}
+    <details class="activity-detail">
+      <summary>Details</summary>
+      <div>{{ . | markdownify }}</div>
+    </details>
+  {{ end }}
+  {{ with .url }}
+    <div class="activity-links">
+      <a href="{{ . }}">Event link</a>
+    </div>
+  {{ end }}
+</article>

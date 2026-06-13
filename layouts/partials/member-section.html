@@ -1,0 +1,10 @@
+{{ with .members }}
+  <section class="member-group">
+    <h2>{{ $.title }}</h2>
+    <div class="member-grid">
+      {{ range . }}
+        {{ partial "member-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

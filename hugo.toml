@@ -1,0 +1,55 @@
+baseURL = "https://faalab.github.io/"
+locale = "kr"
+title = "SNU FAA Lab"
+
+[params]
+  description = "Turbulence, Gravity Waves, Aviation Meteorology, Mesoscale Meteorology, Mountain Meteorology, Synoptic Meteorology"
+  labName = "Forecast, Analysis, Application Laboratory"
+  institution = "School of Earth and Environmental Sciences, Seoul National University"
+  email = "jhkim99@snu.ac.kr"
+  googleScholar = "https://scholar.google.com/citations?user=jkADiWwAAAAJ&hl=en"
+  orcid = "https://orcid.org/0000-0002-5336-9536"
+  researchGate = "https://www.researchgate.net/profile/Jung-Hoon_Kim"
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Members"
+    pageRef = "/members"
+    weight = 20
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 25
+  [[menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 30
+  [[menus.main]]
+    name = "Activities"
+    pageRef = "/activities"
+    weight = 40
+  [[menus.main]]
+    name = "News"
+    pageRef = "/news"
+    weight = 45
+  [[menus.main]]
+    name = "Forecasts"
+    pageRef = "/forecasts"
+    weight = 47
+  [[menus.main]]
+    name = "Links"
+    pageRef = "/links"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

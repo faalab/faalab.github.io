@@ -1,0 +1,23 @@
+<button class="easter-egg-trigger" type="button" aria-controls="jeonghoe-easter-egg" aria-expanded="false" aria-label="Hidden easter egg" title="Secret forecast" data-secret-photo="{{ "images/members/Mr._Deongi.png" | relURL }}"></button>
+<div class="easter-egg-panel" id="jeonghoe-easter-egg" hidden>
+  <p><strong>You found an easter egg!</strong></p>
+  <p>Yes, I made this website with a great help of Codex! AI is amazing in these days 🤖</p>
+</div>
+<script>
+  document.querySelectorAll(".easter-egg-trigger").forEach((button) => {
+    let clickCount = 0;
+    button.addEventListener("click", () => {
+      const panel = document.getElementById(button.getAttribute("aria-controls"));
+      clickCount += 1;
+      if (clickCount >= 10) {
+        const photo = document.querySelector(".member-profile-photo");
+        if (photo) {
+          photo.src = button.dataset.secretPhoto;
+          photo.alt = "Mr. Deongi";
+        }
+        panel.removeAttribute("hidden");
+        button.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+</script>

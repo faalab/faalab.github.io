@@ -1,0 +1,17 @@
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="header-inner">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} home">
+      <img class="brand-logo" src="{{ "images/SNU_UI.png" | relURL }}" alt="" aria-hidden="true">
+      <span>
+        <span class="brand-name">{{ site.Params.labName }}</span>
+        <span class="brand-subtitle">{{ site.Params.institution }}</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

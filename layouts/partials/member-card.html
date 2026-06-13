@@ -1,0 +1,15 @@
+<article class="member-card" data-member-category="{{ .Params.category | default "Members" | anchorize }}">
+  <a class="member-card-photo" href="{{ .RelPermalink }}" aria-label="View {{ .Title }}">
+    <img src="{{ .Params.photo | default "/images/members/default.svg" | relURL }}" alt="{{ .Title }}">
+  </a>
+  <div class="member-card-body">
+    <p class="member-role">{{ .Params.role }}</p>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.korean_name }}<p class="member-korean-name" lang="ko">{{ . }}</p>{{ end }}
+    {{ with .Params.email }}<p class="member-contact"><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+    {{ with .Params.research }}
+      <p class="member-research">{{ delimit . ", " }}</p>
+    {{ end }}
+    <a class="member-more" href="{{ .RelPermalink }}">View profile</a>
+  </div>
+</article>

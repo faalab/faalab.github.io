@@ -1,0 +1,12 @@
+{{ $count := .Get "count" | default 3 }}
+{{ $items := first $count (where site.RegularPages "Section" "news").ByDate.Reverse }}
+{{ if $items }}
+  <div class="news-list compact-news-list">
+    {{ range $items }}
+      <article class="news-item">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

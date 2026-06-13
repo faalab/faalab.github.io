@@ -1,0 +1,32 @@
+{{ $items := hugo.Data.publications }}
+{{ if $items }}
+  {{ $inProgress := where $items "category" "in-progress" }}
+  {{ $peerReviewed := where $items "category" "peer-reviewed" }}
+  {{ with $inProgress }}
+    <h2>Works in Progress and Under Review</h2>
+    <ol class="publication-list">
+      {{ range sort . "year" "desc" }}
+        <li class="publication-item">{{ partial "publication-reference.html" . }}</li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+  {{ with $peerReviewed }}
+    <h2>Peer-Reviewed Publications</h2>
+    <ol class="publication-list">
+      {{ range sort . "year" "desc" }}
+        <li class="publication-item">{{ partial "publication-reference.html" . }}</li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+  {{ $uncategorized := where $items "category" nil }}
+  {{ with $uncategorized }}
+    <h2>Other Publications</h2>
+    <ol class="publication-list">
+      {{ range sort . "year" "desc" }}
+        <li class="publication-item">{{ partial "publication-reference.html" . }}</li>
+      {{ end }}
+    </ol>
+  {{ end }}
+{{ end }}

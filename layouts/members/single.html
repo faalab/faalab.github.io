@@ -1,0 +1,74 @@
+{{ define "main" }}
+  {{ partial "page-hero.html" . }}
+  {{ $memberNames := slice .Title }}
+  {{ with .Params.publication_aliases }}
+    {{ range . }}{{ $memberNames = $memberNames | append . }}{{ end }}
+  {{ end }}
+  {{ with .Params.activity_aliases }}
+    {{ range . }}{{ $memberNames = $memberNames | append . }}{{ end }}
+  {{ end }}
+  {{ $memberPublications := slice }}
+  {{ range hugo.Data.publications }}
+    {{ $publicationNames := slice }}
+    {{ with .participants }}{{ range . }}{{ $publicationNames = $publicationNames | append . }}{{ end }}{{ end }}
+    {{ with .authors }}{{ range . }}{{ $publicationNames = $publicationNames | append . }}{{ end }}{{ end }}
+    {{ if gt (len (intersect $publicationNames $memberNames)) 0 }}
+      {{ $memberPublications = $memberPublications | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $memberActivities := slice }}
+  {{ range hugo.Data.activities }}
+    {{ $activityNames := slice }}
+    {{ with .participants }}{{ range . }}{{ $activityNames = $activityNames | append . }}{{ end }}{{ end }}
+    {{ with .members }}{{ range . }}{{ $activityNames = $activityNames | append . }}{{ end }}{{ end }}
+    {{ if gt (len (intersect $activityNames $memberNames)) 0 }}
+      {{ $memberActivities = $memberActivities | append . }}
+    {{ end }}
+  {{ end }}
+
+  <article class="container content page-content member-profile">
+    <aside class="member-profile-sidebar">
+      <img src="{{ .Params.photo | default "/images/members/profile-placeholder.svg" | relURL }}" alt="{{ .Title }}" class="member-profile-photo">
+      {{ with .Params.korean_name }}<p class="member-profile-korean-name" lang="ko">{{ . }}</p>{{ end }}
+      {{ if eq .Title "Jeonghoe Kim" }}
+        {{ partial "easter-egg.html" . }}
+      {{ end }}
+      <div class="member-profile-details">
+        {{ with .Params.email }}<p><strong>Email</strong><br><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Params.phone }}<p><strong>Phone</strong><br>{{ . }}</p>{{ end }}
+        {{ with .Params.office }}<p><strong>Office</strong><br>{{ . }}</p>{{ end }}
+      </div>
+    </aside>
+    <div class="member-profile-main">
+      {{ .Content }}
+      {{ with .Params.education }}
+        <section class="member-auto-section">
+          <h2>Education</h2>
+          <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </section>
+      {{ end }}
+      {{ with $memberPublications }}
+        <details class="member-auto-section member-auto-details">
+          <summary>Publications</summary>
+          <ol class="publication-list member-publication-list">
+            {{ range sort . "year" "desc" }}
+              <li class="publication-item">{{ partial "publication-reference.html" . }}</li>
+            {{ end }}
+          </ol>
+        </details>
+      {{ end }}
+      {{ with $memberActivities }}
+        <details class="member-auto-section member-auto-details">
+          <summary>Activities</summary>
+          <div class="activity-list member-activity-list">
+            {{ range sort . "date" "desc" }}
+              {{ partial "activity-item.html" . }}
+            {{ end }}
+          </div>
+        </details>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

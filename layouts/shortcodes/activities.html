@@ -1,0 +1,8 @@
+{{ $items := hugo.Data.activities }}
+{{ if $items }}
+  <div class="activity-list">
+    {{ range $items }}
+      {{ partial "activity-item.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

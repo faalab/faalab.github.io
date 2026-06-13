@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-label="Profile photo placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d7e8f4"/>
+      <stop offset="0.54" stop-color="#f4f8fb"/>
+      <stop offset="1" stop-color="#b9d0df"/>
+    </linearGradient>
+    <linearGradient id="person" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#17476f"/>
+      <stop offset="1" stop-color="#257d7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="url(#sky)"/>
+  <path d="M0 470c100-64 197-83 291-56 126 36 208 12 349-67v413H0z" fill="#e8f0f4"/>
+  <path d="M80 182c94-33 180-39 258-17 69 20 135 18 222-8" fill="none" stroke="#7da7bf" stroke-width="18" stroke-linecap="round" opacity=".55"/>
+  <circle cx="320" cy="306" r="112" fill="url(#person)"/>
+  <path d="M133 692c25-125 97-201 187-201s162 76 187 201" fill="url(#person)"/>
+  <path d="M112 94h416" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+</svg>

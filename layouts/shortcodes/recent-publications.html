@@ -1,0 +1,9 @@
+{{ $count := .Get "count" | default 5 }}
+{{ $items := first $count (sort (where hugo.Data.publications "category" "peer-reviewed") "year" "desc") }}
+{{ if $items }}
+  <ol class="publication-list recent-publication-list">
+    {{ range $items }}
+      <li class="publication-item">{{ partial "publication-reference.html" . }}</li>
+    {{ end }}
+  </ol>
+{{ end }}

@@ -1,0 +1,317 @@
+#===============================================================================
+# The followings are in preparation, under review, or in revision.
+#===============================================================================
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Kim, J.</u>, **J.-H. Kim**<sup>*</sup>, H. H. Shin, W. Deierling, R. D. Sharman, M.-S. Park, H.-W. Choi, and S.-S. Lee, 2026: Characteristics of Energy Dissipation Rate at the Standard Weather Observatory under Various Atmospheric Conditions and Its Application to Aviation Turbulence Intensity. *Journal of Geophysical Research: Atmospheres*, **Submitted**."
+  # participants: ["Jeonghoe Kim", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Lee, J. H.</u>, **J.-H. Kim**<sup>*</sup>, M. Sprenger, M. H. F. Lee, and J. A. Knox: 2026: Evolution of Two Distinct Environments for Upper-Level Turbulence during the Interaction of Typhoon Hagibis with the East Asian Jet, *Geophyiscal Research Letters*, **Submitted**."
+  # participants: ["Ju Heon Lee", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Park, Y.-J.</u>, **J. -H. Kim**<sup>*</sup>, G. Lee, S.-W. Son, S.-H. Kim, S. H. Bang, W. Hitchcock, S. M. Lee, H. C., and H. S. Kan, (2026). Roles of convective inflows and vertical momentum budgets in a record-breaking heavy rainfall event over the Seoul Metropolitan Area. *Monthly Weather Review*. **In Revision**."
+  # participants: ["Yi-June Park", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Shin, Y.</u>, **J.-H. Kim**<sup>*</sup>, S. H. Kim, and J. D. Doyle, 2026: An Investigation of Generation Mechanisms on Extreme Downslope Winds during the Catastrophic Los Angeles Fires in January 2025, *Advances in Atmospheric Sciences*. **Submitted**."
+  # participants: ["Yewon Shin", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Kim J.</u>, **J.-H. Kim**<sup>*</sup>, <u>J. Kim</u>, <u>E.-T. Kim</u>, <u>J. H. Lee</u>, D.-B. Lee, S.-H. Kim, E. Choi, H. I. Kim, and S.-H. Suh, 2026: Eddy Dissipation Rate derived from Doppler Wind Lidar and Radiosonde Wind Data at Naro Space Center in South Korea. *Measurement*, **Submitted**."
+  # participants: ["Juseob Kim", "Prof. Jung-Hoon Kim", "Jeonghoe Kim", "Eun-Tae Kim", "Ju Heon Lee", "Dr. Dan-Bi Lee", "Dr. Soo-Hyun Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Kim, J. H.</u> and **J.-H. Kim**<sup>*</sup>, 2026: Combined Impact of Jet stream and Turbulence on Long-term Trans-Oceanic Flight Routes over North Atlantic Ocean using ERA5 reanalysis data, *Scientific Reports*, **In Review**."
+  # participants: ["Joon Hee Kim", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "<u>Kim, E.-T.</u>, **J.-H. Kim**<sup>*</sup>, S.-M. Kim, and Y.-J. Lim, 2026: Orographic and Coastal Impacts on Unexpected Snowstorm Development in Seoul Metropolitan Area, *Urban Climate*, **In Review**."
+  # participants: ["Eun-Tae Kim", "Prof. Jung-Hoon Kim"]
+  url: ""
+
+- category: "in-progress"
+  year: 2026
+  reference: "Kim, S.-H., **J.-H. Kim**<sup>*</sup>, <u>J. Kim</u>, and J.-S. Min, 2026: Analyses of Low-Level Turbulence Observed by Unmanned Aerial Vehicle in Suburb of Seoul Metropolitan, South Korea. *Geophysical Research Letters*, **In Review**."
+  # participants: ["Dr. Soo-Hyun Kim", "Prof. Jung-Hoon Kim", "Jeonghoe Kim", "Jae-Sik Min"]
+  url: ""
+
+#===============================================================================
+# The followings are peer-reviewed articles.
+#===============================================================================
+
+- category: "peer-reviewed"
+  year: 2026
+  reference: "<u>Kim, J.</u>, **J.-H. Kim**<sup>*</sup>, C. E. Dorman, and H. J. S. Fernando, 2026: Numerical simulation and physical understanding of a locally initiated sea fog event over the eastern Yellow Sea with a transition of air–sea temperature difference. *Quarterly Journal of the Royal Meteorological Society*, **In Press**, e70228."
+  participants: ["Jeonghoe Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1002/qj.70228"
+
+- category: "peer-reviewed"
+  year: 2026
+  reference: "<u>Shin, Y.</u>, **J.-H. Kim**<sup>*</sup>, R. D. Sharman, T. L. Keller, S. B. Trier, H. H. Shin, J. D. Doyle, and S. H. Kim, 2026: Generation Mechanisms of Mountain-Wave Turbulence in the Upper Troposphere and Lower Stratosphere over Alaska. *Monthly Weather Review*, **154**(5), 813--834."
+  participants: ["Yewon Shin", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/MWR-D-25-0166.1"
+
+- category: "peer-reviewed"
+  year: 2026
+  reference: "Dorman, C. E.<sup>*</sup>, <u>J. Kim</u>, **J.-H. Kim**, D. Koračin, R. N. Dimitrova, and H. J. S. Fernando, 2026: An anatomy of fog over Nova Scotia under a ridge on 8 September 2021. *Quarterly Journal of the Royal Meteorological Society*, **In Press**, e70139."
+  participants: ["Jeonghoe Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1002/qj.70139"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Park, Y.-J.</u>, **J.-H. Kim**<sup>*</sup>, S.-W. Son, Y.-M. Cha, E.-J. Cha, S.-S. Shin, and H.-S. Kang, 2025: Spatio-Temporal Characteristics of Heavy Rainfall Events During the Changma in Southeastern Korea. Earth and Space Science, **12**(10), e2025EA004351."
+  participants: ["Yi-June Park", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1029/2025EA004351"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "Son, S.-W., H.-S. Kang, B.-M. Kim, **J.-H. Kim**, J. Kim, S.-H. Park, K.-W. Seo, G. Lee, H. C. Lee, S.-W. Yeh, E.-C. Chang, D.-H. Cha, and K.-H. Min, 2025: Redefining Changma. *Atmosphere*, **35**(3), 433--438."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2025.35.3.433"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Park, Y.-J.</u>, **J.-H. Kim**<sup>*</sup>, D.-B. Lee, H. J. Choi, S.-H. Kim, M. Steiner, and S. H. Kim, 2025: Multimodel and Multidiagnostic Ensemble-Based Deep Convective Area Forecast for Aviation Operations Using the Global Unified Model and Korean Integrated Model. *Weather and Forecasting*, **40**(10), 2055--2077."
+  participants: ["Yi-June Park", "Prof. Jung-Hoon Kim", "Dr. Dan-Bi Lee", "Dr. Soo-Hyun Kim"]
+  url: "https://doi.org/10.1175/WAF-D-25-0006.1"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Park, J. S.</u> and **J.-H. Kim**<sup>*</sup>, 2025: Lightning Climatology over the Korean Peninsula and Its Relationship with Topography and Atmospheric Condition. *Atmosphere*, **35**(3), 345--367. (In Korean with English Abstract)"
+  participants: ["Jun Seok Park", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2025.35.3.293"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Kang, J.</u>, <u>Y. Shin</u>, and **J.-H. Kim**<sup>*</sup>, 2025: Classification of Synoptic Flows and Mesoscale Mechanisms for Downslope Windstorms in the Lee of Sobaek Mountains in Korea. *Atmosphere*, **35**(3), 293--313. (In Korean with English Abstract)"
+  participants: ["Junho Kang", "Yewon Shin", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2025.35.3.293"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Jung, M.</u> and **J.-H. Kim**<sup>*</sup>, 2025: Characteristics of Sea Breezes on the Three Coasts of the Korean Peninsula Using Long-Term Ground Observation Data. *Atmosphere*, **35**(2), 193--205. (In Korean with English Abstract)"
+  participants: ["Minhyuk Jung", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2025.35.2.193"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>Lee, J. H.</u>, **J.-H. Kim**<sup>*</sup>, S. B. Trier, R. D. Sharman, and J. D. Doyle, 2025: Generation Mechanisms of Near-Cloud Turbulence Events in the Upper-Level Outflow of Tropical Cyclone Hagibis. *Monthly Weather Review*, **153**(3), 521--542."
+  participants: ["Ju Heon Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/MWR-D-24-0116.1"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "Baek, S., K. Kim, **J.-H. Kim**, and G. Lee<sup>*</sup>, 2025: Evaluation of Turbulent Energy Dissipation Rate Estimation from Doppler Lidar: Impact of Techniques and Scanning Strategies. *Remote Sensing*, **17**(5), 939."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.3390/rs17050939"
+
+- category: "peer-reviewed"
+  year: 2025
+  reference: "<u>J. Kim</u>, **J.-H. Kim**<sup>*</sup>, D.-B. Lee, and G. Lee, 2025: Characteristics of Convectively Induced Turbulence Derived from the Weather Radar Data in Korea. *Atmosphere*, **35**(1), 65--84. (In Korean with English Abstract)"
+  participants: ["Juseob Kim", "Prof. Jung-Hoon Kim", "Dr. Dan-Bi Lee"]
+  url: "https://doi.org/10.14191/Atmos.2025.35.1.065"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2024
+  reference: "<u>Baek, S.-H.</u>, **J.-H. Kim**<sup>*</sup>, S.-H. Kim, Y.-J. Noh, and Y. Lee, 2024: Characteristics of Convectively Induced Turbulence in East Asia Using Geostationary Korea Multi-Purpose Satellite-2A (GK-2A) and In Situ Aircraft Data. *Journal of Geophyiscal Research: Atmospheres*, **129**(24), e2024JD041671."
+  participants: ["Sung-Ho Baek", "Prof. Jung-Hoon Kim", "Dr. Soo-Hyun Kim", "Dr. Yoo-Jeong Noh", "Dr. Yoonjin Lee"]
+  url: "https://doi.org/10.1029/2024JD041671"
+
+- category: "peer-reviewed"
+  year: 2024
+  reference: "<u>K.-Y. Byen</u>, **J.-H. Kim**<sup>*</sup>, and <u>Y.-J. Park</u>, 2024: Synoptic and Meso Scale Mechanisms of Reported Tornado-like Gust Wind Event in Korea Using High-resolution Numerical Simulation. *Atmosphere*, **34**(4), 397--415. (In Korean with English Abstract)"
+  participants: ["Ka-young Byen", "Prof. Jung-Hoon Kim", "Yi-June Park"]
+  url: "https://doi.org/10.14191/Atmos.2024.34.4.397"
+
+- category: "peer-reviewed"
+  year: 2024
+  reference: "<u>Yang, S.-I.</u>, <u>J. H. Lee</u>, and **J.-H. Kim**<sup>*</sup>, 2024: A Case Study on Near-Cloud Turbulence around the Mesoscale Convective System in the Korean Peninsula. Atmosphere, **34**(2), 153--176. (In Korean with English Abstract)"
+  participants: ["Sung-Il Yang", "Ju Heon Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2024.34.2.153"
+
+- category: "peer-reviewed"
+  year: 2024
+  reference: "<u>Kim, E.-T.</u>, **J.-H. Kim**<sup>*</sup>, S.-H. Kim, and C. Morcrette, 2024: Operational Aviation Icing Forecast Algorithm for the Korea Meteorological Administration. *Weather and Forecasting*, **39**(3), 501--521."
+  participants: ["Eun-Tae Kim", "Dr. Soo-Hyun Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-23-0160.1"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "Lee, Y.<sup>*</sup>, S.-H. Kim, Y.-J. Noh, and **J.-H. Kim**, 2023: Deep Learning-Based Summertime Turbulence Intensity Estimation Using Satellite Observations. *Journal of Atmospheric and Oceanic Technology*, **40**(11), 1433--1448."
+  participants: ["Dr. Yoonjin Lee", "Dr. Soo-Hyun Kim", "Dr. Yoo-Jeong Noh", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/JTECH-D-22-0137.1"
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "Ko, H.-C., H.-Y. Chun<sup>*</sup>, R. D. Sharman, and **J.-H. Kim**, 2023: Comparison of eddy dissipation rate estimated from operational radiosonde and commercial aircraft observations in the United States. *Journal of Geophyiscal Research: Atmospheres*, **128**(20), e2023JD039352."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1029/2023JD039352"
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "Kim, S.-H.<sup>*</sup>, **J.-H. Kim**<sup>*</sup>, H.-Y. Chun, and R. D. Sharman, 2023: Global response of upper-level aviation turbulence from various sources to climate change. *npj Climate and Atmospheric Science*, **6**, 92."
+  participants: ["Dr. Soo-Hyun Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1038/s41612-023-00421-3"
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "<u>J. H. Lee</u>, **J.-H. Kim**<sup>*</sup>, R. D. Sharman, J. Kim, and S.-W. Son, 2023: Climatology of Clear-Air Turbulence in Upper Troposphere and Lower Stratosphere in the Northern Hemisphere Using ERA5 Reanalysis Data. *Journal of Geophyiscal Research: Atmospheres*, **128**(1), e2022JD037679."
+  participants: ["Ju Heon Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1029/2022JD037679"
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "<u>Y.-J. Park</u> and **J.-H. Kim**<sup>*</sup>, 2023: Aviation Convective Index for Deep Convective Area using the Global Unified Model of the Korean Meteorological Administration, Korea: Part 2. Seasonal Optimization and Case Studies. *Atmosphere*, **33**(5), 531--548. (In Korean with English Abstract)"
+  participants: ["Yi-June Park", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2023.33.5.531"
+
+- category: "peer-reviewed"
+  year: 2023
+  reference: "<u>Y.-J. Park</u> and **J.-H. Kim**<sup>*</sup>, 2023: Aviation Convective Index for Deep Convective Area using the Global Unified Model of the Korean Meteorological Administration, Korea: Part 1. Development and Statistical Evaluation. *Atmosphere*, **33**(5), 519--530. (In Korean with English Abstract)"
+  participants: ["Yi-June Park", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2023.33.5.519"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "Tsai, C.-L., K. Kim, Y.-C. Liou, **J.-H. Kim**, and G. Lee, 2022: Orographic-Induced Strong Wind Associated with a Low-Pressure System under Clear-Air Condition During ICE-POP 2018. J. Geophys. Res-Atmos., 127(13), e2021JD036428."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1029/2021JD036418"
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "Kim, S.-H., <u>J. Kim</u>, **J.-H. Kim**<sup>*</sup>, and H.-Y. Chun, 2022: Characteristics of the Derived Energy Dissipation Rate using 1-Hz Commercial Aircraft Quick Access Recorder (QAR) Data. *Atmospheric Measurement Techniques*, **15**(7), 2277--2298."
+  participants: ["Dr. Soo-Hyun Kim", "Jeonghoe Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.5194/amt-15-2277-2022"
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "Park, J.-R., **J.-H. Kim**<sup>*</sup>, <u>Y. Shin</u>, S.-H. Kim, H.-Y. Chun, W. Jang, C.-L. Tsai, and G. Lee, 2022: A Numerical Simulation of Strong Windstorm Event in the Taebaek Mountain Region during the ICE-POP 2018. *Atmospheric Research*, **272**, 106158."
+  participants: ["Ja-Rin Park", "Prof. Jung-Hoon Kim", "Yewon Shin", "Dr. Soo-Hyun Kim"]
+  url: "https://doi.org/10.1016/j.atmosres.2022.106158"
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "<u>Shin, Y.</u>, **J.-H. Kim**<sup>*</sup>, H.-Y. Chun, W. Jang, and S.-W. Son, 2022: Classification of Synoptic Patterns for Downslope Windstorms in Korea using the Self-Organizing Map. *Journal of Geophysical Research: Atmospheres*, **127**(6), e2021JD035867."
+  participants: ["Yewon Shin", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1029/2021JD035867"
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "Lee, D.-B., H.-Y. Chun<sup>*</sup>, S.-H. Kim, R. D. Sharman, and **J.-H. Kim**, 2022: Development and evaluation of Global Korean Aviation Turbulence Forecast Systems with outputs of an Operational Numerical Weather Prediction Model and In Situ Flight Turbulence Observation Data. *Weather and Forecasting*, **37**(3), 371--392."
+  participants: ["Dr. Dan-Bi Lee", "Dr. Soo-Hyun Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-21-0095.1"
+
+- category: "peer-reviewed"
+  year: 2022
+  reference: "<u>Kim, J</u>. and **J.-H. Kim**<sup>*</sup>, 2022: Retrieval and Quality Assessment of Atmospheric Winds from the Aircraft-Based Observation Near Incheon International Airport, Korea. *Atmosphere*, **32**(4), 323--340. (In Korean with English Abstract)"
+  participants: ["Jeongmin Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.14191/Atmos.2022.32.4.323"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "Park, C., S.-W. Son<sup>*</sup>, **J. Kim**, E.-C. Chang, J.-H. Kim, E. Jo, D. -H. Cha, and S. Jeong, 2021: Diverse synoptic weather patterns of warm-season heavy rainfall events in South Korea. *Monthly Weather Review*, **149**(11), 3875--3893."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/MWR-D-20-0388.1"
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "Kim, S.-H., H.-Y. Chun<sup>*</sup>, D.-B. Lee, **J.-H. Kim**, and R. D. Sharman, 2021: Improving Numerical Weather Prediction-based Near-Cloud Aviation Turbulence Forecasts by Diagnosing Convective Gravity Wave Breaking. *Weather and Forecasting*, **36**(5), 1735--1757."
+  participants: ["Dr. Soo-Hyun Kim", "Dr. Dan-Bi Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-20-0213.1"
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "<u>Kim J.</u>, **J.-H. Kim**<sup>*</sup>, and R. D. Sharman, 2021: Characteristics of Energy Dissipation Rate observed from the High-Frequency Sonic Anemometer at Boseong, South Korea. *Atmosphere (Basel)*, **12**(7), 837."
+  participants: ["Jeonghoe Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.3390/atmos12070837"
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "Park, C., S.-W. Son<sup>*</sup>, and **J.-H. Kim*8, 2021: Role of baroclinic trough in triggering vertical motion during summertime heavy rainfall events in Korea. *Journal of the Atmospheric Sciences*, **78**(5), 1687--1702."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/JAS-D-20-0216.1"
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "Lee, E., **J.-H. Kim**<sup>*</sup>, K.-Y. Heo, and Y.-K Cho, 2021: Advection Fog over the Eastern Yellow Sea: WRF Simulation and Its Verification by Satellite and In Situ Observations. *Remote Sensing*, **13**(8), 1480."
+  participants: ["Dr. Eunjeong Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.3390/rs13081480"
+
+- category: "peer-reviewed"
+  year: 2021
+  reference: "**Kim, J.-H.**<sup>*</sup>, J.-R. Park, S.-H. Kim, <u>J. Kim</u>, E. Lee, S. Baek, and G. Lee, 2021: A Detection of Convectively Induced Turbulence Using In Situ Aircraft and Radar Spectral Width Data. *Remote Sensing*, **13**(4), 726."
+  participants: ["Prof. Jung-Hoon Kim", "Ja-Rin Park", "Dr. Soo-Hyun Kim", "Jeonghoe Kim", "Dr. Eunjeong Lee"]
+  url: "https://doi.org/10.3390/rs13040726"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2020
+  reference: "**Kim, J.-H.**<sup>*</sup>, D. Kim, D.-B. Lee, H.-Y. Chun, R. D. Sharman, P. D. Williams, and Y.-J. Kim, 2020: Impact of climate variabilities on trans-oceanic flight times and emissions during strong NAO and ENSO phases, *Environmental Research Letters*, **15**, 105017."
+  participants: ["Prof. Jung-Hoon Kim", "Dr. Dan-Bi Lee"]
+  url: "https://doi.org/10.1088/1748-9326/abaa77"
+
+- category: "peer-reviewed"
+  year: 2020
+  reference: "Beck, J.<sup>*</sup>, J. Brown, J. Dudhia, D. Gill, T. Hertneky, J. Klemp, W. Wang, C. Williams, M. Hu, E. James, J. Kenyon, T. Smirnova, and **J. -H. Kim**, 2020: An Evaluation of a Hybrid, Terrain-Following Vertical Coordinate in the WRF-based RAP and HRRR Models. *Weather and Forecasting*, **35**(3), 1081--1096."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-19-0146.1"
+
+- category: "peer-reviewed"
+  year: 2020
+  reference: "Kim, S.-H., H.-Y. Chun<sup>*</sup>, **J.-H. Kim**, R. D. Sharman, and M. Strahan, 2020: Retrieval of eddy dissipation rate from derived equivalent vertical gust included in Aircraft Meteorological Data Relay (AMDAR). *Atmospheric Measurement Techniques*, **13**(3), 1373--1385."
+  participants: ["Dr. Soo-Hyun Kim", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.5194/amt-13-1373-2020"
+
+- category: "peer-reviewed"
+  year: 2020
+  reference: "Lee, D.-B., H.-Y. Chun<sup>*</sup>, and **J.-H. Kim**, 2020: Evaluation of Multi-Model-Based Ensemble Forecasts for Clear-Air Turbulence, *Weather and Forecasting*. *835*8(2), 507--521."
+  participants: ["Dr. Dan-Bi Lee", "Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-19-0155.1"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2019
+  reference: "**Kim, J.-H.**<sup>*</sup>, R. D. Sharman, S. Benjamin, J. Brown, S.-H. Park, and J. Klemp, 2019: Improvement of Mountain Wave Turbulence Forecast in the NOAA’s Rapid Refresh (RAP) Model with Hybrid Vertical Coordinate System, *Weather and Forecasting*. **34**(3), 773--780."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/WAF-D-18-0187.1"
+
+- category: "peer-reviewed"
+  year: 2019
+  reference: "Park, S.-H.<sup>*</sup>, J. Klemp, and **J.-H. Kim**, 2019: Hybrid Mass Coordinate in WRF-ARW and its Impact on Upper-Level Turbulence Forecasting, *Monthly Weather Review*. **147**(3), 971--985."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/MWR-D-18-0334.1"
+
+#-------------------------------------------------------------------------------
+
+- category: "peer-reviewed"
+  year: 2018
+  reference: "**Kim, J.-H.**<sup>*</sup>, R. D. Sharman, M. Strahan, J. W. Scheck, C. Bartholomew, J. C. H. Cheung, P. Buchanan, and N. Gait, 2018: Improvements in Non-Convective Aviation Turbulence Prediction for the World Area Forecast System (WAFS), *Bulletin of the American Meteorological Society*. **99**(11), 2295--2311."
+  participants: ["Prof. Jung-Hoon Kim"]
+  url: "https://doi.org/10.1175/BAMS-D-17-0117.1"

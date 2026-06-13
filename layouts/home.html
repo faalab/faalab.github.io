@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ $heroImages := partial "hero-images.html" . }}
+  {{ $slideDuration := 7 }}
+  {{ $animationDuration := cond (gt (len $heroImages) 0) (mul (len $heroImages) $slideDuration) $slideDuration }}
+  <section class="home-hero">
+    <div class="home-hero-slider" aria-hidden="true">
+      {{ range $index, $hero := $heroImages }}
+        <div class="home-hero-slide" style="background-image: url('{{ $hero.image | relURL }}'); animation-delay: {{ mul $index $slideDuration }}s; animation-duration: {{ $animationDuration }}s;"></div>
+      {{ end }}
+    </div>
+    <div class="hero-inner">
+      <h1>{{ site.Params.labName }}</h1>
+      <p class="hero-copy">{{ site.Params.description }}</p>
+    </div>
+  </section>
+
+  <div class="container home-layout">
+    <article class="content">
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}
