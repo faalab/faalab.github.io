@@ -127,6 +127,10 @@ a {
   border-color: var(--teal);
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .home-hero {
   position: relative;
   overflow: hidden;
@@ -727,25 +731,97 @@ h1 {
 
 @media (max-width: 780px) {
   .header-inner {
+    min-height: 68px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
     gap: 0.75rem;
-    padding: 0.85rem 0;
+    padding: 0.5rem 0;
   }
 
   .brand {
-    align-self: flex-start;
+    min-width: 0;
+  }
+
+  .brand-logo {
+    width: 42px;
+    height: 42px;
   }
 
   .brand-name {
+    font-size: 1rem;
     white-space: normal;
   }
 
-  .site-nav {
-    justify-content: flex-start;
+  .brand-subtitle {
+    display: none;
   }
 
-  .site-nav a {
-    padding-left: 0;
-    padding-right: 0.6rem;
+  .site-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    position: relative;
+    display: block;
+    justify-self: end;
+  }
+
+  .mobile-nav summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .mobile-nav summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-nav summary:focus-visible {
+    outline: 3px solid rgba(37, 125, 122, 0.28);
+    outline-offset: 2px;
+  }
+
+  .hamburger-line {
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+  }
+
+  .mobile-nav-menu {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    width: min(72vw, 260px);
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 18px 40px rgba(5, 33, 59, 0.18);
+    padding: 0.45rem;
+  }
+
+  .mobile-nav-menu a {
+    display: block;
+    color: var(--ink);
+    font-weight: 800;
+    text-decoration: none;
+    padding: 0.65rem 0.8rem;
+    border-left: 3px solid transparent;
+  }
+
+  .mobile-nav-menu a:hover,
+  .mobile-nav-menu a[aria-current="page"] {
+    color: var(--blue);
+    border-color: var(--teal);
+    background: var(--cloud);
   }
 
   .home-hero {
@@ -768,6 +844,21 @@ h1 {
   .member-grid,
   .member-profile {
     grid-template-columns: 1fr;
+  }
+
+  .member-card {
+    grid-template-columns: minmax(92px, 34%) minmax(0, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .member-card-photo {
+    aspect-ratio: 4 / 5;
+    min-height: 100%;
+  }
+
+  .member-card-body {
+    align-self: center;
+    padding: 0.7rem 0.78rem;
   }
 
   .research-feature-grid {
