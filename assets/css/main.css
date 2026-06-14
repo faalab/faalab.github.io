@@ -2,7 +2,7 @@
   --ink: #12202f;
   --muted: #526478;
   --navy: #05213b;
-  --blue: #0c5793;
+  --blue: #064a80;
   --teal: #257d7a;
   --green: #6e8f3c;
   --cloud: #f6f8fa;
@@ -28,8 +28,7 @@ body {
 
 a {
   color: var(--blue);
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.18em;
+  text-decoration: none;
 }
 
 .skip-link {
@@ -706,7 +705,7 @@ h1 {
 .footer-link-inner a:hover,
 .footer-link-inner a:focus {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-inner {

@@ -10,3 +10,8 @@ weight: 220
 ## Current Position
 
 - Weather Officer, Republic of Korea Air Force.
+
+## Education
+
+- **Master's Degree in Earth and Environmental Sciences, Seoul National University (February 2024)**
+  (Thesis Title:  A Case Study on Near-Cloud Turbulence around the Mesoscale Convective System in the Korean Peninsula)

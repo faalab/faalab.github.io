@@ -3,7 +3,8 @@ locale = "kr"
 title = "SNU FAA Lab"
 
 [params]
-  description = "Turbulence, Gravity Waves, Aviation Meteorology, Mesoscale Meteorology, Mountain Meteorology, Synoptic Meteorology"
+  #description = "Turbulence, Gravity Waves, Aviation Meteorology, Mesoscale Meteorology, Mountain Meteorology, Synoptic Meteorology"
+  description = "Advancing the science and prediction of weather hazards"
   labName = "Forecast, Analysis, Application Laboratory"
   institution = "School of Earth and Environmental Sciences, Seoul National University"
   email = "jhkim99@snu.ac.kr"
